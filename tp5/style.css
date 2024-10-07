@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+button{
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    font-size: 2em;
+    margin: 30px;
+    transition: 0.2s;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 150ms;
+}
