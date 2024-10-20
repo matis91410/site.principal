@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    background-color: beige;
+}
+
+nav > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}
+nav > li{
+    list-style-type: none;
+}
+ul > li{
+   background-color: rgb(0, 0, 0);
+}
+ul > li:hover{
+    border-top: 5px solid #fef6066f;
+}
+
+.b{
+    display: none;
+    list-style: none;
+  
+}
+.b1{
+    display: none;
+    list-style: none;
+  
+}
+.b2{
+    display: none;
+    list-style: none;
+  
+}
+.b3{
+    display: none;
+    list-style: none;
+  
+}
+.b4{
+    display: none;
+    list-style: none;
+  
+}
+.b5{
+    display: none;
+    list-style: none;
+  
+}
+nav > ul > li > ul > li > a {
+    display: block; 
+    padding: 10px ;
+    color: white;
+    text-decoration: none;
+   
+}
+nav > ul > li > ul > li {
+    width: 190px; 
+}
+
+
+label{
+    display: none;
+}
+
+input{
+    display: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none; 
+    padding: 15px 30px;
+    display: inline-block;
+    color: aliceblue;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav ul li:hover .b{
+    display: inline-block;
+    position: absolute;
+    z-index: 10000;
+    top:100%;
+    left: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+nav ul li:hover .b1{
+    display: inline-block;
+    position: absolute;
+    z-index: 10000;
+    top:100%;
+    left: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+nav ul li:hover .b2{
+    display: inline-block;
+    position: absolute;
+    z-index: 10000;
+    top:100%;
+    left: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+nav ul li:hover .b3{
+    display: inline-block;
+    position: absolute;
+    z-index: 10000;
+    top:100%;
+    left: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+nav ul li:hover .b4{
+    display: inline-block;
+    position: absolute;
+    z-index: 10000;
+    top:100%;
+    left: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+nav ul li:hover .b5{
+    display: inline-block;
+    position: absolute;
+    z-index: 10000;
+    top:100%;
+    left: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+a{
+    color: aliceblue;
+    
+   
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.menu .b li:hover{
+    background-color: rgb(251, 255, 0);
+    border: none;
+}
+.menu .b1 li:hover{
+    background-color: rgb(251, 255, 0);
+    border: none;
+}
+
+.menu .b2 li:hover{
+    background-color: rgb(251, 255, 0);
+    border: none;
+}
+.menu .b3 li:hover{
+    background-color: rgb(251, 255, 0);
+    border: none;
+}
+
+.menu .b4 li:hover{
+    background-color: rgb(251, 255, 0);
+    border: none;
+}
+
+.menu .b5 li:hover{
+    background-color: rgb(251, 255, 0);
+    border: none;
+}
+footer{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(38, 179, 177);
+    color: black;
+    
+}
+
+
+
+
+
+.b li:hover a {
+    color: pink;
+    font-weight: bold;
+}
+#menu:hover{
+    background-color: rgb(219, 198, 202);
+}
+.menu .b li{
+    background-color: pink;
+}
+.b1 li:hover a {
+    color: lightgreen;
+    font-weight: bold;
+}
+#menu1:hover{
+    background-color: lightgreen;
+}
+.menu .b1 li{
+    background-color: lightgreen;
+}
+.b2 li:hover a {
+    color: lightblue;
+    font-weight: bold;
+}
+#menu2:hover{
+    background-color: lightblue;
+}
+.menu .b2 li{
+    background-color:lightblue;
+}
+.b3 li:hover a {
+    color:red;
+    font-weight: bold;
+}
+#menu3:hover{
+    background-color: red;
+}
+.menu .b3 li{
+    background-color: red;
+}
+.b4 li:hover a {
+    color: lightcoral;
+    font-weight: bold;
+}
+#menu4:hover{
+    background-color: lightcoral;
+}
+.menu .b4 li{
+    background-color: lightcoral;
+}
+.b5 li:hover a {
+    color: rgb(185, 88, 226);
+    font-weight: bold;
+}
+#menu5:hover{
+    background-color: rgb(170, 97, 201);
+}
+.menu .b5 li{
+    background-color: rgb(185, 88, 226);
+}
+nav > input[type="checkbox"] :checked ~ul {
+    display: block;
+}
+
+@media (max-width: 680px) {
+    label {
+        display: block; 
+        background-color: #444; 
+        color: white; 
+        text-align: center;
+        padding: 12px 0;
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    nav > ul {
+        display: flex; 
+        flex-direction: column; 
+        width: 100%; 
+        height: auto; 
+        box-sizing: border-box; 
+    }
+
+    nav > ul > li {
+        width: 100%; 
+    }
+
+    nav > ul > li > a {
+        display: block; 
+        width: 100%; 
+        padding: 15px; 
+        text-align: left; 
+        color: white; 
+        box-sizing: border-box; 
+    }
+
+
+
+    nav > ul > li > ul {
+        display: none; 
+        flex-direction: column; 
+        width: 100%; 
+        background-color: #555; 
+        position: relative; 
+        box-sizing: border-box; 
+    }
+
+    nav > ul > li:hover > ul {
+        display: flex; 
+    }
+
+    nav > ul > li > ul > li {
+        width: 100%; 
+    }
+
+    nav > ul > li > ul > li > a {
+        padding: 10px;
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+    .b li:hover a {
+        color: pink;
+        font-weight: bold;
+    }
+    #menu:hover{
+        background-color: rgb(219, 198, 202);
+    }
+    .menu .b li{
+        background-color: pink;
+    }
+    .b1 li:hover a {
+        color: lightgreen;
+        font-weight: bold;
+    }
+    #menu1:hover{
+        background-color: lightgreen;
+    }
+    .menu .b1 li{
+        background-color: lightgreen;
+    }
+    .b2 li:hover a {
+        color: lightblue;
+        font-weight: bold;
+    }
+    #menu2:hover{
+        background-color: lightblue;
+    }
+    .menu .b2 li{
+        background-color:lightblue;
+    }
+    .b3 li:hover a {
+        color:lightsalmon;
+        font-weight: bold;
+    }
+    #menu3:hover{
+        background-color: lightsalmon;
+    }
+    .menu .b3 li{
+        background-color: lightsalmon;
+    }
+    .b4 li:hover a {
+        color: lightslategray;
+        font-weight: bold;
+    }
+    #menu4:hover{
+        background-color:lightslategray;
+    }
+    .menu .b4 li{
+        background-color: lightslategray;
+    }
+    .b5 li:hover a {
+        color: rgb(185, 88, 226);
+        font-weight: bold;
+    }
+    #menu5:hover{
+        background-color: rgb(170, 97, 201);
+    }
+    .menu .b5 li{
+        background-color: rgb(185, 88, 226);
+    }
+}
