@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+
+}
+div{
+    background-color: antiquewhite;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 750px;
+    height: 150px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.p{
+    background-color: rgb(29, 199, 185);
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+table{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+}
