@@ -46,5 +46,5 @@ button:hover{
     height: 50px;
     margin: 5px;
     padding: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0,0.2);
 }
