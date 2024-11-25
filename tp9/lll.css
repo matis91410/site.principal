@@ -1,0 +1,23 @@
+div{
+    background-color: bisque;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 4px solid black;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+button:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+.aaa:hover{
+    background-color: red;
+    color: aliceblue;
+}
