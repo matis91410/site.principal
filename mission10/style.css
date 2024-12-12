@@ -1,0 +1,96 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(253, 184, 157);
+    
+}
+
+.a {
+    width: 800px;
+    height: auto;
+    margin: auto ;
+    background: grey;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 6px 8px rgb(0, 0, 0);
+}
+
+.b{
+  float: left;
+  padding: 10px;
+}
+
+.c{
+  float: right;
+  padding: 20px;
+  
+}
+
+section{
+    clear: both;
+    border-top: 5px solid rgb(253, 184, 157);
+    padding: 10px;
+}
+
+.d{
+    float: left;
+    padding: 10px;
+}
+
+.e{
+    float: right;
+    padding: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: rgb(253, 184, 157);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+tbody tr {
+    background-color: #f9f9f9; 
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.g{
+    float: right;
+}
+
+.h{
+    border-top: 5px solid rgb(253, 184, 157);
+    margin-top: -10px;
+}
+
+button{
+    background-color: rgb(253, 184, 157);
+    border: 2px dashed whitesmoke; 
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 99, 71);
+}
