@@ -201,11 +201,6 @@ footer{
     text-align: center;
     
 }
-section{
-    border: 5px solid darkgray;
-    height: 500px;
-}
-
 .b li:hover a {
     color: pink;
     font-weight: bold;
